@@ -19,6 +19,6 @@ def chat_with_model(prompt):
     return response.choices[0].text.strip()
 
 # Contoh penggunaan
-user_input = "say hello bro"
+user_input = "say hello bro 2"
 response = chat_with_model(user_input)
 print(response)
